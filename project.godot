@@ -69,7 +69,7 @@ _global_script_class_icons={
 [application]
 
 config/name="bravehunt shooter"
-run/main_scene="res://Main.tscn"
+run/main_scene="res://UI/MainTitleScreen.tscn"
 config/icon="res://icon.png"
 
 [autoload]
@@ -79,6 +79,7 @@ PluginSettings="*res://addons/github-integration/scripts/PluginSettings.gd"
 IconLoaderGithub="*res://addons/github-integration/scripts/IconLoaderGithub.gd"
 UserData="*res://addons/github-integration/scripts/user_data.gd"
 RestHandler="*res://addons/github-integration/scenes/RestHandler.tscn"
+Global="*res://Global.gd"
 
 [display]
 

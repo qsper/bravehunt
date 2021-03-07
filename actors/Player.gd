@@ -15,8 +15,10 @@ onready var score_stat = $Score
 
 func _ready():
 	print('Player._ready call')
-	# connect("weapon_fired", self, "ammo_changed")
-	pass
+	Global.player = self
+	
+func _exit_tree():
+	Global.player = null
 
 func _physics_process(delta: float) -> void:
 	var movement_direction := Vector2.ZERO
